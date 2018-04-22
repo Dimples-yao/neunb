@@ -1,0 +1,16 @@
+#公众账号ID
+appid=wxeccf59312692043f
+#商户号
+mch_id=1433833102
+#终端IP
+spbill_create_ip=192.168.0.249
+#证书地址
+certpath=C://Users/NEU/Desktop/wxpay/apiclient_cert.p12
+
+key=029f96df482a11e79a8f00ac9c2c0afa
+
+appsecret=a9ee638af506557aedae489031af65fe
+token=SFTongServiceNeuNavy_203
+aes_key=k4czJA840rWqh0NKWc6rj0W485Lo7QT1A8bYUPJjXEE
+#支付成功后，回调地址
+pay_notify_url=http://project.neunb.com/wxpay/notify.form

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="sfjson">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/lib/sfjson" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/sfjson" recursive="false" />
+  </library>
+</component>

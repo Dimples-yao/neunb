@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jsweblibrary_obf">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/app/jsweblibrary_obf.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,30 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="jsweblibextra.web:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/jsweblibextra_web_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="jsweblibextra.web/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="jsweblibextra.web" />
+          <element id="module-output" name="jsweblibextra" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="commons-beanutils-1.9.3" />
+          <element id="library" level="project" name="dom4j-1.6.1" />
+          <element id="library" level="project" name="hikaricp" />
+          <element id="library" level="project" name="jackson" />
+          <element id="library" level="project" name="jna-4.4.0" />
+          <element id="library" level="project" name="jsweblibrary_obf" />
+          <element id="library" level="project" name="misc" />
+          <element id="library" level="project" name="poi-3.16" />
+          <element id="library" level="project" name="spring" />
+          <element id="library" level="project" name="spring-web-4.3.4.RELEASE" />
+          <element id="library" level="project" name="j2ee" />
+          <element id="library" level="project" name="wxpay" />
+          <element id="library" level="project" name="alipay" />
+          <element id="library" level="project" name="sfjson" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

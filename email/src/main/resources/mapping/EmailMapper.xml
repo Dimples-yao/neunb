@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.dao.EmailDao">
+
+    <select id="getEmailCount" resultType="int" parameterType="int">
+        SELECT COUNT(*)
+        FROM `email`
+        WHERE `email`.`acceptoraddress` IN
+        (SELECT
+            `user`.`useraddress`
+          FROM
+            `user`
+          WHERE `user`.`userid` = #{userid})
+        AND isdelete != 1
+    </select>
+
+    <select id="loadEmail" resultType="java.util.Map" parameterType="int">
+        SELECT
+          *
+        FROM
+          `email`
+          LEFT JOIN `user`
+            ON (
+              `user`.`useraddress` = `email`.`senderaddress`
+            )
+        WHERE `email`.`acceptoraddress` IN
+          (SELECT
+            `user`.`useraddress`
+          FROM
+            `user`
+          WHERE `user`.`userid` = #{userid})
+          AND isdelete != 1
+          limit #{pageNow},5
+    </select>
+
+    <insert id="sendEmail" parameterType="String">
+        INSERT INTO `email`
+        (title,content,emaildata,senderaddress,acceptoraddress,isread,isdelete)
+        VALUES
+        (#{0}, #{1}, #{2}, #{3}, #{4},0,0)
+    </insert>
+
+</mapper>

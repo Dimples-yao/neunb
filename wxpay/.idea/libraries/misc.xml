@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="misc">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/misc/jedis-2.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/misc/json-20140107.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/misc/jsoup-1.10.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/misc/mail-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/misc/mysql-connector-java-5.1.36-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/misc/rhino-1.7.7.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/misc/velocity-1.7-dep.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

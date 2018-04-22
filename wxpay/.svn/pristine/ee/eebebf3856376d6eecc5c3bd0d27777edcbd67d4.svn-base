@@ -1,0 +1,4 @@
+function main(context) {
+    var result = wxpay.doUnifiedOrder("测试", "gsdfgrwegfdgdfsvdfsvds", "oci96jlJag9f7hMcm9hp9GSUBiM8", "1", "http://project.neunb.com/wxpay/notify.form", "NATIVE", "", "", "", "", "", "", "", "","", "");
+    return result;
+}
