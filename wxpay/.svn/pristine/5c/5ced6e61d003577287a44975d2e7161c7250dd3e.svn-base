@@ -1,5 +1,0 @@
-package com.liuzg.jswebextra.plugins.pay.model;
-
-public class AliResultData {
-    private String test;
-}

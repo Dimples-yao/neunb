@@ -1,7 +1,0 @@
-package com.liuzg.jswebextra.plugins.wxattention;
-
-/**
- * Created by NEUNB_Lisy on 2017/10/28.
- */
-public class WeixinOauth2Token {
-}
